@@ -7,7 +7,6 @@ Please DO NOT modify this script or the accompanying stylesheet. If neededfor a 
 
 ## USAGE
 Call the following link & script tags on each page the menu is needed.
-
 ```
 <link href="/Internet/FSE_DOCUMENTS/fseprd586548.css" rel="stylesheet" />
 <script src="/Internet/FSE_DOCUMENTS/fseprd586425.js"> </script>
