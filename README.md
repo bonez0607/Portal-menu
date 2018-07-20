@@ -11,7 +11,7 @@ Call the following link & script tags on each page the menu is needed.
 `<link href="/Internet/FSE_DOCUMENTS/fseprd586548.css" rel="stylesheet" />`
 `<script src="/Internet/FSE_DOCUMENTS/fseprd586425.js"> </script>`
 
-Ensure that the source from the menu object is called using document.write(menu.menuItems())
+Ensure that the source from the menu object is called using `document.write(menu.menuItems())`
 
 ## IMPORTANT CSS CLASS
 className holds the CSS class of needed for the styling. It's saved as a ojbect variable for quick change.
