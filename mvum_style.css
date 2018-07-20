@@ -1,0 +1,116 @@
+/****************** 
+SIDE_VMENU
+
+- ***NOTE IF MENU IS CALL With Javascript HTML Structure is already created
+- Right-floating vertical menu designed for subtopics 
+- use DIV wrapper, with P for box header and UL for menu items
+
+  <div class="side_vmenu">
+  <p>HEADER</p>
+
+  <ul>
+      <li><a href="URL">ITEM</a></li>
+      <li><a href="URL">ITEM</a></li>
+      <li><a href="URL">ITEM</a></li>
+  </ul>
+  </div>
+******************/
+
+.side_vmenu {
+  float: right;
+  width: 200px; 
+  border: 1px solid #563; 
+  margin: 10px; 
+  background: #fffdee;
+}
+
+.side_vmenu p {
+  margin: 0px 0px 0.5em 0px !important; 
+  padding: 3px; 
+  background-color: #DEC;
+  font-weight: bold;
+}
+
+.side_vmenu ul, .side_vmenu li{
+  z-index: 9999;
+}
+
+.side_vmenu li{
+  padding: 0 10px 5px 10px !important;
+}
+
+
+/**  Device table styles  **/
+table.devicetable, table.devicetable td {
+  border: 1px solid silver ;
+  border-collapse: collapse ;
+  padding: 2px ;
+  text-align: center ;
+}
+
+table.devicetable{
+  width: 500px;
+  margin: 15px auto;
+}
+
+table.devicetable p{
+  text-align:center;
+}
+
+table.devicetable img {
+  float: none ;
+  clear: both ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
+/****************** 
+
+100px & 150px HORIZONTAL ALIGN BLOCKS HTML Builde
+
+<div class="block100">
+  <a href="https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprd3817477.pdf">
+    <img alt="Firewood Collection Map" height="200" src="/Internet/FSE_MEDIA/fseprd517919.jpg" width="155" />
+  </a>
+  <p><a href="https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprd3817477.pdf">Off-Road Elk Retrieval Map</a></p>
+</div>
+
+******************/ 
+
+div.block100 img{
+  width: 100%;
+}
+
+div.block100, div.block155{
+display: block;
+float: left;
+height: auto; 
+text-align: center;
+margin: 10px 20px 10px 0;
+}
+
+div.block100 a,div.block155 a{ 
+  display:block; 
+  position:relative; 
+  clear:both
+}
+
+div.block100{
+  width:100px;
+}
+
+div.block155{
+  width:155px;
+}
+
+
+/*used for file extension names*/
+.smalltxt{
+  font-size: 80%;
+}
+
+
+#fullwidthcol ul, #fullwidthcol p, #fullwidthcol h1, #fullwidthcol h2, #fullwidthcol h3 {
+
+}  
