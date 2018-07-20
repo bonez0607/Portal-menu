@@ -1,12 +1,6 @@
 # Portal-menu
 Javascript file used for shared site content on the Portal
-
-
-
-Author: Joseph Banegas, USDA Forest Service - Region 3	
-Email: josephpbanegas@fs.fed.us 								
-Companion CSS: /Internet/FSE_DOCUMENTS/fseprd58648.CSS 					
-
+					
 This script and accompanying style sheet is used on the Region 3 Motor Vehicle use pages, located in the Maps & Publications node.					
 Please DO NOT modify this script or the accompanying stylesheet. If neededfor a project please download a new copy so that the original pages are NOT altered when files are modified to fit your needs						
 
@@ -14,8 +8,8 @@ Please DO NOT modify this script or the accompanying stylesheet. If neededfor a 
 ## USAGE
 Call the following link & script tags on each page the menu is needed.
 
-<link href="/Internet/FSE_DOCUMENTS/fseprd586548.css" rel="stylesheet" />
-<script src="/Internet/FSE_DOCUMENTS/fseprd586425.js"> </script>
+`<link href="/Internet/FSE_DOCUMENTS/fseprd586548.css" rel="stylesheet" />`
+`<script src="/Internet/FSE_DOCUMENTS/fseprd586425.js"> </script>`
 
 Ensure that the source from the menu object is called using document.write(menu.menuItems())
 
