@@ -31,11 +31,14 @@ className holds the CSS class of needed for the styling. It's saved as a ojbect 
    - The Dynamic links are built by combining menu.forestName & menu.links.[forest variable]
 
 ## ADDING FOREST PAGES OR ADDITIONAL MENU LINKS
-   - To add a forest page simply add the forest will need to be added in two places.
+To add a forest page simply add the forest will need to be added in two places.
    		1. Locate the forest's new CID.
    		2. Place the CID in the menu.cid object
    		3. Within the menu.source array add list item in appropriate place following the other list item format.
-   			-EXAMPLE: '<li><a href="' + this.link() +  this.cid.[NAME THAT WAS CREATED IN menu.links Object]   + '">  {Link Name Here}  </a></li>'
+         EXAMPLE: 
+         ```javascript
+         '<li><a href="' + this.link() +  this.cid.[NAME THAT WAS CREATED IN menu.links Object]   + '">  Link Name Here  </a></li>'
+         ```
 
 ## EDITING MENU LINKS
    - If a page location changes for whatever reason the update only needs to occur within the menu.links object by updating the CID#
