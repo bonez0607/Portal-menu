@@ -2,7 +2,7 @@
 Javascript file used for shared site content on the Portal
 					
 This script and accompanying style sheet is used on the Region 3 Motor Vehicle use pages, located in the Maps & Publications node.					
-Please DO NOT modify this script or the accompanying stylesheet. If neededfor a project please download a new copy so that the original pages are NOT altered when files are modified to fit your needs						
+Please DO NOT modify this script or the accompanying stylesheet. If needed for a project please download a new copy so that the original pages are NOT altered when files are modified to fit your needs						
 
 
 ## USAGE
